@@ -562,23 +562,117 @@ header #search-modal-btn {
 	padding: 75px 0;
 }
 
-#brain-section .image-box {
-	position: relative;
+#brain-section .owl-carousel .owl-stage-outer {
+	z-index: 10;
 }
 
-#brain-section .image-box .contents {
+#brain-section .brain-item .image-box {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+#brain-section .brain-item.red {
+	color: #FF0109;
+}
+
+#brain-section .brain-item.blue {
+	color: #008BCD;
+}
+
+#brain-section .brain-item.green {
+	color: #0CAE58;
+}
+
+#brain-section .brain-item .image-box .contents {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,0.6);
+	display: none;
 }
 
-#brain-section .image-box .contents a {
+#brain-section .owl-item.center:hover .brain-item .image-box .contents {
+	display: block;
+}
+
+#brain-section .brain-item .image-box .contents a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	white-space: nowrap;
+}
+
+#brain-section .brain-item p {
+	font-size: 25px;
+	text-align: center;
+	display: none;
+}
+
+#brain-section .owl-item.center .brain-item p {
+	display: block;
+}
+
+#brain-section .brain-item {
+	width: 80%;
+	height: 80%;
+	margin: 10% auto;
+}
+
+#brain-section .owl-item.center .brain-item {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#brain-section .owl-theme .owl-nav {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+}
+
+#brain-section .owl-theme .owl-nav button {
+	position: relative;
+	z-index: 100;
+}
+
+#brain-section .owl-theme .owl-nav .owl-prev {
+	margin-right: 25%;
+}
+
+#brain-section .owl-theme .owl-nav .owl-next {
+	margin-left: 25%;
+}
+
+#brain-section .owl-theme .owl-nav [class*="owl-"]:hover {
+	background: #eee;
+}
+
+#brain-section .owl-theme .owl-nav [class*="owl-"]:focus {
+	outline: none;
+}
+
+#brain-section .owl-item .brain-item:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.75);
+}
+
+#brain-section .owl-item.center .brain-item:after {
+	display: none;
+}
+
+
+/* Footer Area */
+footer {
+	background: #01253B;
+	color: #fff;
+	padding: 50px 0;
 }
