@@ -199,7 +199,7 @@ h4 {
 }
 
 .section-header {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -354,7 +354,7 @@ header #search-modal-btn {
 
 /* Intro Section */
 #intro-section {
-	padding: 60px 0 50px; 
+	padding: 50px 0 40px; 
 	font-size: 24px;
 }
 
@@ -367,7 +367,7 @@ header #search-modal-btn {
 #mark-works-section {
 	background: #01253B;
 	color: #fff;
-	padding: 75px 0;
+	padding: 50px 0 70px;
 }
 
 #mark-works-section .mark-works-item {
@@ -460,7 +460,7 @@ header #search-modal-btn {
 
 /* Testimonials Section */
 #testimonials-section {
-	padding: 75px 0;
+	padding: 50px 0;
 	background-image: url(../img/testimonials/bg.png);
 	background-position: top right;
 	background-size: contain;
@@ -521,6 +521,7 @@ header #search-modal-btn {
 	font-size: 24px;
 	width: 240px;
 	margin-bottom: 30px;
+	line-height: 1.2em;
 }
 
 #testimonials-section .testimonials-item .contents h3 {
@@ -559,7 +560,7 @@ header #search-modal-btn {
 
 /* Brain Section */
 #brain-section {
-	padding: 75px 0;
+	padding: 50px 0;
 }
 
 #brain-section .owl-carousel .owl-stage-outer {
