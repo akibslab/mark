@@ -157,6 +157,7 @@ a {
    pointer-events: none;
    overflow: hidden;
 }
+
 .vimeo-wrapper iframe {
    width: 100vw;
    height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
@@ -464,7 +465,7 @@ header .mobile-menu {
 
 
 /* Testimonials Section */
-#testimonials-section {
+#testimonials-section.testimonials-section {
 	padding: 50px 0;
 	background-image: url(../img/testimonials/bg.png);
 	background-position: top right;
@@ -675,12 +676,6 @@ header .mobile-menu {
 	display: none;
 }
 
-#brain-section .mobile-note {
-	font-size: 18px;
-	font-weight: 500;
-	text-align: center;
-}
-
 
 /* Footer Area */
 footer {
@@ -783,6 +778,10 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 /* Product Services Section */
 #product-services-section {
 	padding: 36px 0;
+	background-image: url(../img/testimonials/services-bg.png);
+	background-position: top left;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 #product-services-section h4 {
@@ -802,4 +801,53 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+#product-services-section .services-bottom-text h3 {
+	line-height: 43.88px;
+	font-weight: 500;
+	color: #008BCD;
+}
+
+#product-services-section .services-bottom-text h4 {
+	line-height: 29.26px;
+	font-weight: 500;
+	color: #000000;
+	width: 791px;
+	display: inline-block;
+}
+
+/* product-services-section end */
+
+/* accelerator-section start */
+
+#accelerator-section {
+	padding: 89px 0;
+	background-image: url('../img/product/accelerator-section-bg-1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+#accelerator-section .accelerator-section-content h1{
+	font-weight: 700;
+	line-height: 97.52px;
+	color: #fff;
+}
+
+#accelerator-section .accelerator-section-content h3 {
+	margin-top: 59px;
+	font-weight: 700;
+	line-height: 43.88px;
+	color: #fff;
+	align-items: center;
+	width: 427px;
+	display: inline-block;
+}
+
+#accelerator-section .accelerator-section-content .button-primary {
+	margin-top: 96px;
+	font-weight: 700;
+	font-size: 24px;
 }
