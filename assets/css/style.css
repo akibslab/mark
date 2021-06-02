@@ -753,3 +753,53 @@ footer .footer-form .form-control:-ms-input-placeholder { /* IE 10+ */
 footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
   color: #ABABAB;
 }
+
+/* Product hero section */
+#product-hero-section {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+#product-hero-section h3 {
+	max-width: 427px;
+	color: #fff;
+	font-weight: 700;
+	align-items: center;
+	margin-top: 60px;
+}
+
+#product-hero-section .product-section-title {
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+/* Product Services Section */
+#product-services-section {
+	padding: 36px 0;
+}
+
+#product-services-section h4 {
+	font-weight: 500;
+	text-align: center;
+	line-height: 29.26px;
+	color: #000000;
+	max-width: 1035px;
+}
+
+#product-services-section h4 a {
+	color: #1F99D3;
+}
+
+#product-services-section .section-header {
+	margin-top: 15px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
