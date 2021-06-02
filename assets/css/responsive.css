@@ -3,6 +3,11 @@
     header .menu > ul > li {
     	margin-right: 30px;
     }
+
+    #mark-works-section .mark-works-item h3 {
+    	padding: 25px 15px 15px;
+    	font-size: 32px;
+    }
 }
 
 
@@ -22,6 +27,42 @@
     header .menu > ul > li > a {
     	font-size: 16px;
     }
+
+    #mark-works-section .mark-works-item h3 {
+    	padding: 25px 15px 15px;
+    	font-size: 27px;
+    }
+
+    #mark-works-section .mark-works-item h4 {
+    	font-size: 20px;
+    }
+
+    #mark-works-section .mark-works-item .button-secondary {
+    	font-size: 16px;
+    }
+
+    #testimonials-section .testimonials-item .contents p {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+
+	#testimonials-section .testimonials-item .contents h3 {
+    	font-size: 27px;
+		margin-bottom: 10px;
+	}
+
+	#testimonials-section .testimonials-item .contents span {
+	    font-size: 16px;
+	    margin-bottom: 30px;
+	}
+
+	#testimonials-section .testimonials-item .contents .button-secondary {
+	    font-size: 18px;
+	}
+
+	#brain-section .brain-item .image-box .contents a {
+		font-size: 20px;
+	}
 }
 
 
@@ -35,7 +76,7 @@
 	}
 
 	h2 {
-		font-size: 48px;
+		font-size: 42px;
 	}
 
 	h3 {
@@ -103,6 +144,82 @@
 
 	.vimeo-wrapper iframe {
 		left: 5%;
+	}
+
+	#mark-works-section .mark-works-item {
+		height: 400px;
+	}
+
+	#mark-works-section .mark-work-highlight {
+		height: 300px;
+	}
+
+	#mark-works-section .mark-work-highlight h3 {
+		padding: 25px 15px 15px;
+	}
+
+	#testimonials-section {
+		padding: 50px 0 0;
+	}
+
+    #testimonials-section .testimonials-item .contents p {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+
+	#testimonials-section .testimonials-item .contents h3 {
+    	font-size: 27px;
+		margin-bottom: 10px;
+	}
+
+	#testimonials-section .testimonials-item .contents span {
+	    font-size: 16px;
+	    margin-bottom: 30px;
+	}
+
+	#testimonials-section .testimonials-item .contents .button-secondary {
+	    font-size: 18px;
+	}
+
+	#testimonials-section .owl-theme .owl-nav button {
+		width: 50px;
+	}
+
+	#testimonials-section .owl-theme .owl-nav .owl-prev {
+		float: left;
+	}
+
+	#testimonials-section .owl-theme .owl-nav .owl-next {
+		float: right;
+	}
+
+	.section-header h3 {
+		font-size: 36px;
+	}
+
+	#brain-section .owl-theme .owl-nav button {
+		width: 50px;
+	}
+
+	#brain-section .owl-theme .owl-nav .owl-prev {
+		float: left;
+	}
+
+	#brain-section .owl-theme .owl-nav .owl-next {
+		float: right;
+	}
+
+	#brain-section .brain-item .image-box .contents a {
+		font-size: 14px;
+		padding: 4px 25px;
+	}
+
+	footer {
+		padding: 50px 0 0;
+	}
+
+	footer .col-md-4 {
+		margin-bottom: 50px;
 	}
 }
 

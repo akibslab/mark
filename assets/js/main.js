@@ -37,7 +37,7 @@
 		            items:1,
 		    		margin:10,
 		        },
-		        600:{
+		        768:{
 		            items:2,
 		    		margin:10,
 		        },
@@ -59,8 +59,9 @@
 		        0:{
 		            items:1,
 		    		margin:10,
+		    		stagePadding: 40,
 		        },
-		        600:{
+		        768:{
 		            items:2,
 		    		margin:10,
 		        },
