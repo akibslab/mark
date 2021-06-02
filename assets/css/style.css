@@ -780,7 +780,6 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	padding: 36px 0;
 	background-image: url(../img/testimonials/services-bg.png);
 	background-position: top left;
-	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -820,14 +819,20 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 /* product-services-section end */
 
 /* accelerator-section start */
-
 #accelerator-section {
-	padding: 89px 0;
-	background-image: url('../img/product/accelerator-section-bg-1.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	color: #fff;
+	position: relative;
+}
+
+#accelerator-section .section-image {
+	width: 100%;
+}
+
+#accelerator-section .container {
+	position: absolute;
+	top: 90px;
+	left: 0;
+	right: 0;
 }
 
 #accelerator-section .accelerator-section-content h1{
