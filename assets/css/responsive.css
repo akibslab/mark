@@ -1,6 +1,8 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) { 
-    
+    header .menu > ul > li {
+    	margin-right: 30px;
+    }
 }
 
 
@@ -9,7 +11,17 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
+	header .logo {
+	    width: 150px;
+	}
 
+	header .menu > ul > li {
+    	margin-right: 20px;
+    }
+
+    header .menu > ul > li > a {
+    	font-size: 16px;
+    }
 }
 
 
@@ -18,7 +30,80 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
+	h1 {
+		font-size: 48px;
+	}
 
+	h2 {
+		font-size: 48px;
+	}
+
+	h3 {
+		font-size: 25px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	header .logo {
+	    width: 150px;
+	}
+
+	header .menu {
+		display: none;
+	}
+
+	header .search-icon {
+		margin-left: auto;
+		margin-right: 10px;
+	}
+
+	.slicknav_menu {
+		background: none;
+		padding: 0;
+	}
+
+	.slicknav_btn {
+		margin: 0;
+		padding: 0;
+		background: none;
+	}
+
+	.slicknav_menu .slicknav_icon {
+		width: auto;
+		height: auto;
+		margin: 0;
+	}
+
+	.slicknav_menu .slicknav_icon-bar {
+		width: 34px;
+		height: 5px;
+	}
+
+	.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+	    margin-top: 6px;
+	}
+
+	.slicknav_nav {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background: #000;
+	}
+
+	header .mobile-menu {
+		display: block;
+	}
+
+	.button-primary b {
+		display: none;
+	}
+
+	.vimeo-wrapper iframe {
+		left: 5%;
+	}
 }
 
 
@@ -27,5 +112,23 @@
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) { 
+	h1 {
+		font-size: 60px;
+	}
 
+	h2 {
+		font-size: 54px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	.vimeo-wrapper iframe {
+		left: 20%;
+	}
 }
