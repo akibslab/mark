@@ -765,6 +765,7 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	font-weight: 700;
 	align-items: center;
 	margin-top: 60px;
+	line-height: 43.88px;
 }
 
 #product-hero-section .product-section-title {
@@ -816,6 +817,56 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	display: inline-block;
 }
 
+#product-services-section .section-header-and-text h2 {
+	font-size: 48px;
+	margin-top: 9px;
+	margin: 15px 0;
+	line-height: 58.51px;
+}
+
+#product-services-section .section-header-and-text h4 {
+	line-height: 29.26px;
+	margin-top: 9px;
+	display: inline-block;
+}
+
+#product-services-section .section-header-and-text h4 {
+	line-height: 29.26px;
+	margin-top: 9px;
+	display: inline-block;
+}
+
+#product-services-section .transferred-player {
+	padding: 22px 0 35px 0;
+	margin: 29px 0 0 0;
+	background: #01253B;
+	color: #fff;
+}
+
+#product-services-section .transferred-player h2 {
+	line-height: 58.51px;
+	width: 1191px;
+	display: inline-block;
+	font-size: 47px;
+}
+
+#product-services-section #testimonials-section {
+	padding: 50px 0 16px 0;
+	background-image: url(../img/testimonials/bg.png);
+	background-position: top right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#product-services-section .services-footer-text {
+	padding: 38px 0 35px 0;
+}
+
+#product-services-section .services-footer-text h4 {
+	margin-top: 15px;
+}
+
+
 /* product-services-section end */
 
 /* accelerator-section start */
@@ -855,4 +906,8 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	margin-top: 96px;
 	font-weight: 700;
 	font-size: 24px;
+}
+
+#accelerator-section.onboarding-text h3 {
+	width: 492px;
 }
