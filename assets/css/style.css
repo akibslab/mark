@@ -985,3 +985,27 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	font-weight: 700;
 	font-size: 24px;
 }
+
+/* About Hero Section Start */
+
+#about-hero-section {
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+#about-hero-section h1 {
+	margin-top: 120px;
+}
+
+#about-hero-section h3 {
+	max-width: 427px;
+	color: #fff;
+	font-weight: 700;
+	align-items: center;
+	margin-top: 60px;
+	line-height: 43.88px;
+}
