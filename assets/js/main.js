@@ -71,6 +71,29 @@
 		        }
 		    }
 		})
+
+		$('#product-carousel').owlCarousel({
+	    	center: true,
+		    loop:true,
+		    nav:true,
+		    navText: ['<img src="assets/img/icons/arrow-left.png"/>','<img src="assets/img/icons/arrow-right.png"/>'],
+		    dots:false,
+		    responsive:{
+		        0:{
+		            items:1,
+		    		margin:10,
+		    		stagePadding: 40,
+		        },
+		        768:{
+		            items:2,
+		    		margin:10,
+		        },
+		        1000:{
+		            items:2,
+		    		margin:150,
+		        }
+		    }
+		})
         
     });
 
