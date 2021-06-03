@@ -72,7 +72,7 @@
 		    }
 		})
 
-		$('#product-carousel').owlCarousel({
+		$('#service-slider-carousel').owlCarousel({
 	    	center: true,
 		    loop:true,
 		    nav:true,

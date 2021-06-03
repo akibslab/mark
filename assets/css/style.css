@@ -784,123 +784,183 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	margin: 0 auto;
 }
 
-/* Product Services Section */
-#product-services-section {
+/* Service Intro Section */
+
+#service-intro-section {
 	padding: 36px 0;
 	background-image: url(../img/testimonials/services-bg.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 }
 
-#product-services-section h4 {
+#service-intro-section p {
 	font-weight: 500;
 	text-align: center;
 	line-height: 29.26px;
 	color: #000000;
 	max-width: 1035px;
-}
-
-#product-services-section h4 a {
-	color: #1F99D3;
-}
-
-#product-services-section .section-header {
-	margin-top: 15px;
-	font-weight: 700;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-#product-services-section .services-bottom-text h3 {
-	line-height: 43.88px;
-	font-weight: 500;
-	color: #008BCD;
-}
-
-#product-services-section .services-bottom-text h4 {
-	line-height: 29.26px;
-	font-weight: 500;
-	color: #000000;
-	width: 791px;
+	font-size: 24px;
 	display: inline-block;
 }
 
-#product-services-section .section-header-and-text h2 {
+#service-intro-section h2 {
 	font-size: 48px;
 	margin-top: 9px;
-	margin: 15px 0;
-	line-height: 58.51px;
+	font-weight: 700;
+	margin-bottom: 25px;
 }
 
-#product-services-section .section-header-and-text h4 {
-	line-height: 29.26px;
-	margin-top: 9px;
-	display: inline-block;
-}
+ /* Service Banner Section Start  */
 
-#product-services-section .section-header-and-text h4 {
-	line-height: 29.26px;
-	margin-top: 9px;
-	display: inline-block;
-}
-
-#product-services-section .transferred-player {
+#service-banner {
 	padding: 22px 0 35px 0;
-	margin: 29px 0 0 0;
 	background: #01253B;
 	color: #fff;
 }
 
-#product-services-section .transferred-player h2 {
-	line-height: 58.51px;
-	width: 1191px;
-	display: inline-block;
-	font-size: 47px;
+#service-banner h2 {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 59px;
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
 
-#product-services-section #testimonials-section {
-	padding: 50px 0 16px 0;
+/* Service Slider Section Start */
+
+#service-slider-section {
+	padding: 50px 0;
 	background-image: url(../img/testimonials/bg.png);
 	background-position: top right;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-#product-services-section .services-footer-text {
-	padding: 38px 0 35px 0;
+#service-slider-section .testimonials-item {
+	position: relative;
 }
 
-#product-services-section .services-footer-text h4 {
+#service-slider-section .owl-item .testimonials-item:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.75);
+}
+
+#service-slider-section .owl-item.center .testimonials-item:after {
+	display: none;
+}
+
+#service-slider-section .testimonials-item {
+	width: 80%;
+	height: 80%;
+	margin: 10% auto;
+}
+
+#service-slider-section .owl-item.center .testimonials-item {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#service-slider-section .testimonials-item .contents {
+	opacity: 0;
+	visibility: hidden;
+}
+
+#service-slider-section .owl-item.center .testimonials-item .contents {
+	opacity: 1;
+	visibility: visible;
+	text-align: center;
+}
+
+#service-slider-section .owl-theme .owl-nav {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+}
+
+#service-slider-section .owl-theme .owl-nav .owl-prev {
+	margin-right: 25%;
+}
+
+#service-slider-section .owl-theme .owl-nav .owl-next {
+	margin-left: 25%;
+}
+
+#service-slider-section .owl-theme .owl-nav [class*="owl-"]:hover {
+	background: #eee;
+}
+
+#service-slider-section .owl-theme .owl-nav [class*="owl-"]:focus {
+	outline: none;
+}
+
+#service-slider-section .testimonials-item .contents h3 {
+	color: #1F99D3;
+	font-weight: 500;
+	font-size: 36px;
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#service-slider-section .testimonials-item .contents p {
+	font-size: 24px;
+	width: 743px;
+	line-height: 29px;
+	color: #000000;
+}
+
+/* Service Text Section Start */
+
+#service-text-section {
+	padding: 0 0 35px 0;
+}
+
+#service-text-section h2 {
+	align-items: center;
+} 
+
+#service-text-section p {
 	margin-top: 15px;
-}
+	font-size: 24px;
+    width: 743px;
+    line-height: 29px;
+	display: inline-block;
+} 
 
+/* Service Featured Section Start */
 
-/* product-services-section end */
-
-/* accelerator-section start */
-#accelerator-section {
+#service-featured-section {
 	color: #fff;
 	position: relative;
 }
 
-#accelerator-section .section-image {
+#service-featured-section .section-image {
 	width: 100%;
 }
 
-#accelerator-section .container {
+#service-featured-section .container {
 	position: absolute;
 	top: 90px;
 	left: 0;
 	right: 0;
 }
 
-#accelerator-section .accelerator-section-content h1{
+#service-featured-section .accelerator-section-content h1{
 	font-weight: 700;
 	line-height: 97.52px;
 	color: #fff;
 }
 
-#accelerator-section .accelerator-section-content h3 {
+#service-featured-section .accelerator-section-content h3 {
 	margin-top: 59px;
 	font-weight: 700;
 	line-height: 43.88px;
@@ -910,12 +970,8 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	display: inline-block;
 }
 
-#accelerator-section .accelerator-section-content .button-primary {
+#service-featured-section .accelerator-section-content .button-primary {
 	margin-top: 96px;
 	font-weight: 700;
 	font-size: 24px;
-}
-
-#accelerator-section.onboarding-text h3 {
-	width: 492px;
 }
