@@ -678,6 +678,12 @@ header .mobile-menu {
 	display: none;
 }
 
+#brain-section .mobile-note {
+	font-size: 18px;
+	text-align: center;
+	padding: 15px;
+}
+
 
 /* Footer Area */
 footer {
