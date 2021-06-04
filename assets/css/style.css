@@ -467,6 +467,14 @@ header .mobile-menu {
 
 
 /* Testimonials Section */
+#testimonials-section {
+	padding: 50px 0;
+	background-image: url(../img/testimonials/bg.png);
+	background-position: top right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 #testimonials-section.testimonials-section {
 	padding: 50px 0;
 	background-image: url(../img/testimonials/bg.png);
@@ -692,6 +700,10 @@ footer {
 	padding: 50px 0;
 }
 
+footer .footer-item {
+	margin-bottom: 50px;
+}
+
 footer .footer-logo {
 	margin-bottom: 25px;
 }
@@ -767,13 +779,12 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
     color: #fff;
 }
 
-#product-hero-section h3 {
+#product-hero-section p {
+	font-size: 36px;
 	max-width: 427px;
-	color: #fff;
 	font-weight: 700;
-	align-items: center;
 	margin-top: 60px;
-	line-height: 43.88px;
+	line-height: 1.2em;
 }
 
 #product-hero-section .product-section-title {
@@ -782,22 +793,24 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	left: 0;
 	right: 0;
 	margin: 0 auto;
+	text-align: center;
 }
 
 /* Service Intro Section */
-
 #service-intro-section {
 	padding: 36px 0;
-	background-image: url(../img/testimonials/services-bg.png);
+	background-image: url(../img/bg/bg.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 }
 
+#service-intro-section a {
+	color: #008BCD;
+}
+
 #service-intro-section p {
 	font-weight: 500;
-	text-align: center;
-	line-height: 29.26px;
-	color: #000000;
+	line-height: 1.2em;
 	max-width: 1035px;
 	font-size: 24px;
 	display: inline-block;
@@ -805,33 +818,28 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 
 #service-intro-section h2 {
 	font-size: 48px;
-	margin-top: 9px;
-	font-weight: 700;
-	margin-bottom: 25px;
+	margin: 15px 0 25px;
 }
 
  /* Service Banner Section Start  */
-
 #service-banner {
-	padding: 22px 0 35px 0;
+	padding: 25px 0 35px;
 	background: #01253B;
 	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 #service-banner h2 {
 	font-weight: 500;
 	font-size: 48px;
-	line-height: 59px;
-	display: flex;
-	align-items: center;
-	text-align: center;
+	line-height: 1.2em;
 }
 
 /* Service Slider Section Start */
-
 #service-slider-section {
-	padding: 50px 0;
-	background-image: url(../img/testimonials/bg.png);
+	padding: 0 0 50px;
+	background-image: url(../img/bg/bg-lg.png);
 	background-position: top right;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -867,24 +875,13 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	margin: 0;
 }
 
-#service-slider-section .owl-item.active .service-slider-item .description {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
 #service-slider-section .owl-item .service-slider-item .description {
-	opacity: 0;
-	visibility: hidden;
+	display: none;
 }
 
 #service-slider-section .owl-item.center .service-slider-item .description {
-	opacity: 1;
-	visibility: visible;
+	display: block;
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -914,35 +911,28 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 #service-slider-section .service-slider-item .description h3 {
 	color: #1F99D3;
 	font-weight: 500;
-	font-size: 36px;
-	display: inline-block;
-	align-items: center;
-	text-align: center;
-	margin-top: 30px;
 }
 
 #service-slider-section .service-slider-item .description p {
 	font-size: 24px;
-	width: 743px;
-	line-height: 29px;
-	color: #000000;
+	line-height: 1.2em;
 }
 
-/* Service Text Section Start */
 
+/* Service Text Section Start */
 #service-text-section {
 	padding: 0 0 35px 0;
+	align-items: center;
 }
 
 #service-text-section h2 {
-	align-items: center;
+	margin-top: 15px;
 } 
 
 #service-text-section p {
-	margin-top: 15px;
 	font-size: 24px;
-    width: 743px;
-    line-height: 29px;
+    max-width: 743px;
+    line-height: 1.2em;
 	display: inline-block;
 } 
 
@@ -951,6 +941,7 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 #service-featured-section {
 	color: #fff;
 	position: relative;
+	color: #fff;
 }
 
 #service-featured-section .section-image {
@@ -964,26 +955,29 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	right: 0;
 }
 
-#service-featured-section .accelerator-section-content h1{
-	font-weight: 700;
-	line-height: 97.52px;
-	color: #fff;
+#service-featured-section .content {
+	width: 50%;
+	text-align: right;
 }
 
-#service-featured-section .accelerator-section-content h3 {
-	margin-top: 59px;
+#service-featured-section .content h1 {
 	font-weight: 700;
-	line-height: 43.88px;
-	color: #fff;
-	align-items: center;
-	width: 427px;
-	display: inline-block;
+	line-height: 1.2em;
+	margin-bottom: 50px;
 }
 
-#service-featured-section .accelerator-section-content .button-primary {
-	margin-top: 96px;
+#service-featured-section .content p {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 80px;
+	margin-left: 21%;
+	line-height: 1.2em;
+}
+
+#service-featured-section .content .button-primary {
 	font-weight: 700;
 	font-size: 24px;
+	display: inline-block;
 }
 
 /* About Hero Section Start */
