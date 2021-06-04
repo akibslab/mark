@@ -827,21 +827,20 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	background: #01253B;
 	color: #fff;
 	text-align: center;
-	margin-bottom: 50px;
 }
 
 #service-banner h2 {
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 1.2em;
+	margin-bottom: 0;
 }
 
 /* Service Slider Section Start */
 #service-slider-section {
-	padding: 0 0 50px;
-	background-image: url(../img/bg/bg-lg.png);
+	padding: 50px 0;
 	background-position: top right;
-	background-size: contain;
+	background-size: 50%;
 	background-repeat: no-repeat;
 }
 

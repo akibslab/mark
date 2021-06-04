@@ -86,9 +86,9 @@
 		        },
 		        768:{
 		            items:2,
-		    		margin:10,
+		    		margin:75,
 		        },
-		        1000:{
+		        992:{
 		            items:2,
 		    		margin:150,
 		        }
