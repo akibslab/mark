@@ -224,6 +224,10 @@
 		margin-right: 10px;
 	}
 
+	header nav {
+		padding: 10px 0;
+	}
+
 	.slicknav_menu {
 		background: none;
 		padding: 0;
@@ -350,16 +354,22 @@
 	}
 
 	#product-hero-section {
-	    min-height: calc(100vh - 65px);
+	    min-height: auto;
 		margin-top: 65px;
+		padding: 80px 0 100px;
 	}
 
 	#product-hero-section p {
-	    font-size: 24px;
+	    font-size: 25px;
+		margin-top: 0;
+	}
+
+	#product-hero-section .product-section-title {
+	    bottom: 5px;
 	}
 
 	#product-hero-section h1 {
-	    font-size: 40px;
+	    font-size: 35px;
 	}
 
 	#service-intro-section h2 {
@@ -381,10 +391,6 @@
 
 	#product-hero-section {
 		background-size: 250% 100%;
-	}
-
-	#product-hero-section .product-section-title {
-		bottom: 15px;
 	}
 
 	#service-slider-section .owl-theme .owl-nav button {
@@ -458,8 +464,18 @@
 
 	#about-hero-section {
 		background-size: 200% 100%;
-	    min-height: calc(100vh - 65px);
+	    min-height: auto;
 		margin-top: 65px;
+		padding: 80px 0 50px;
+	}
+
+	#about-hero-section h1 {
+	    margin-bottom: 20px;
+	    font-size: 35px;
+	}
+
+	#about-hero-section p {
+	    font-size: 25px;
 	}
 
 	footer {
