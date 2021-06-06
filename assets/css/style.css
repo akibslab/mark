@@ -1347,6 +1347,24 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 
 /* Contact page */
 
+#contact-hero-section {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: calc(100vh - 80px);
+	color: #fff;
+	/* margin-top: 80px; */
+}
+
+#contact-hero-section p {
+	font-size: 36px;
+	max-width: 427px;
+	font-weight: 700;
+	margin-top: 60px;
+	line-height: 1.2em;
+}
+
 #contact-section {
 	padding: 29px 0 47px 0;
 	border-bottom: 4px solid #FF0000;
@@ -1368,6 +1386,11 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 #contact-section textarea, 
 #contact-section input {
 	background: #E6F2FA;
+}
+
+#contact-section button {
+	outline: none;
+	/* border: none; */
 }
 
 ::placeholder {

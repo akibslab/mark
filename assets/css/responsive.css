@@ -575,6 +575,16 @@
 		max-width: 400px;
 		margin: 0 auto 30px;
 	}
+
+	#contact-section button {
+		margin-top: 20px;
+	}
+
+	#contact-hero-section {
+	    min-height: auto;
+		margin-top: 65px;
+		padding: 80px 0 100px;
+	}
 }
 
 
@@ -606,4 +616,6 @@
 	footer {
 		text-align: left;
 	}
+
+	
 }
