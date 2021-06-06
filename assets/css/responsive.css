@@ -590,6 +590,22 @@
 	#contact-hero-section p {
 		font-size: 25px;
 	}
+
+	#brain-page-testimonial-section .owl-theme .owl-nav button {
+		width: 50px;
+	}
+
+	#brain-page-testimonial-section .owl-theme .owl-nav .owl-prev {
+		float: left;
+	}
+
+	#brain-page-testimonial-section .owl-theme .owl-nav .owl-next {
+		float: right;
+	}
+
+	#brain-page-testimonial-section .owl-theme .owl-nav {
+		top: 4%;
+	}
 }
 
 
@@ -622,5 +638,8 @@
 		text-align: left;
 	}
 
-	
+	#brain-page-testimonial-section .owl-theme .owl-nav {
+		top: 16%;
+	}
+		
 }
