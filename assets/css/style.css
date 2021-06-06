@@ -1344,3 +1344,41 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 #brain-page-testimonial-section .section-header {
 	margin-bottom: 50px;
 }
+
+/* Contact page */
+
+#contact-section {
+	padding: 29px 0 47px 0;
+	border-bottom: 4px solid #FF0000;
+}
+
+#contact-section h4 {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #5BA9DE;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#contact-section textarea {
+	max-height: 145px;
+}
+
+#contact-section textarea, 
+#contact-section input {
+	background: #E6F2FA;
+}
+
+::placeholder {
+	color: #ABABAB;
+	opacity: .2; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #ABABAB;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: #ABABAB;
+}
