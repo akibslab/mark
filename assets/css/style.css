@@ -1357,11 +1357,14 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	/* margin-top: 80px; */
 }
 
+#contact-hero-section h1 {
+	margin-bottom: 60px;
+}
+
 #contact-hero-section p {
 	font-size: 36px;
 	max-width: 427px;
 	font-weight: 700;
-	margin-top: 60px;
 	line-height: 1.2em;
 }
 

@@ -583,7 +583,12 @@
 	#contact-hero-section {
 	    min-height: auto;
 		margin-top: 65px;
-		padding: 80px 0 100px;
+		padding: 80px 0 50px;
+		font-size: 25px;
+	}
+
+	#contact-hero-section p {
+		font-size: 25px;
 	}
 }
 
