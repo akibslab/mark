@@ -1174,3 +1174,26 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 #cta-section .cta-item h4 {
 	color: #fff;
 }
+
+/* Player Says Section */
+
+#service-slider-section .thanks-box {
+	padding: 36px 0 51px 0;
+}
+
+#service-slider-section .thanks-box h3 {
+	font-weight: 500;
+	line-height: 44px;
+	align-items: center;
+	text-align: center;
+	color: #008BCD;
+	padding-bottom: 20px;
+}
+
+#service-slider-section .thanks-box p {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	max-width: 879px;
+}
