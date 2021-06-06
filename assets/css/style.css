@@ -1313,9 +1313,10 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
 	background: rgba(255,255,255,0.75);
+	width: 80%;
+    height: 80%;
+    margin: 10%;
 }
 
 #brain-page-testimonial-section .owl-item.center .brain-page-slider-item:after {
