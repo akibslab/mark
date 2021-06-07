@@ -1472,6 +1472,24 @@ footer .footer-form .form-control:-moz-placeholder { /* Firefox 18- */
 	background-repeat: no-repeat;
 }
 
+#testimonial-section-2 .thanks-box {
+	margin-bottom: 50px;
+}
+
+#testimonial-section-2 .thanks-box h3 {
+	font-size: 36px;
+	color: #008BCD;
+	margin-bottom: 40px;
+	font-weight: 500;
+}
+
+#testimonial-section-2 .thanks-box p {
+	line-height: 1.2em;
+	max-width: 880px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 #testimonial-section-2 .service-slider-item {
 	position: relative;
 }
