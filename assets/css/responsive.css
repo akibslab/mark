@@ -175,6 +175,18 @@
 	#about-featured-section .content p {
 	    font-size: 14px;
 	}
+
+	#brain-section-2 .owl-theme .owl-nav {
+		top: 11%;
+	}
+
+	#brain-section-2 .owl-theme .owl-nav .owl-prev {
+		margin-right: 22%;
+	}
+
+	#brain-section-2 .owl-theme .owl-nav button {
+		width: 60px;
+	}
 }
 
 
@@ -606,6 +618,44 @@
 	#brain-page-testimonial-section .owl-theme .owl-nav {
 		top: 4%;
 	}
+
+	#brain-section-2 .owl-item.center .brain-page-text-box {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	#brain-section-2 .owl-theme .owl-nav {
+		top: 14%;
+	}
+
+	#brain-section-2 .owl-theme .owl-nav .owl-prev {
+		margin-right: 60%;
+		
+	}
+
+	#brain-section-2 .owl-theme .owl-nav button {
+		width: 50px;
+	}
+
+	#brain-section-2 .brain-page-slider-item p {
+		font-size: 20px;
+	}
+
+	#product-hero-section {
+		padding: 80px 0 50px;
+	}
+
+	#cta-section {
+		padding: 0px;
+	}
+
+	#brain-section-2 .owl-theme .owl-nav .owl-prev {
+		margin-right: 44%;
+	}
+	
+	#brain-section-2 .owl-theme .owl-nav {
+		top: 4%;
+	}
 }
 
 
@@ -640,6 +690,10 @@
 
 	#brain-page-testimonial-section .owl-theme .owl-nav {
 		top: 16%;
+	}
+
+	#brain-section-2 .topper-text p {
+		font-size: 20px;
 	}
 		
 }
